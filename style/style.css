@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+header {
+    height: 100vh;
+    background: url(../img/headerbg.jpg) center/cover;
+    text-align: center;
+    padding: 4.5vh 0 0 0;
+    position: relative;
+}
+#title,#zolaq { position: absolute;}
+:root {
+    --green: #a1c927;
+    --red: #fd634d;
+}
+.bgag { background: #fff}
+.bgred { background: #fd634d}
+.bggreen { background: #a1c927}
+.txtag { color: #fff}
+.txtgreen { color: var(--green)}
+.txtred { color: var(--red)}
+.artpadding{padding:55px 40px}
+.acenter{text-align: center}
+.txtgrey{color: #8296a6}
+#logo { margin: 0 50px}
+.borderbottom { border-bottom: 1px dashed #a1c927;}
+.ftpadding{padding: 30px 20px}
+.footer{padding:0 10px}
+#menu li a {
+    font: .8em Poppins, sans-serif;
+    text-transform: uppercase;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 200;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+h1 { font-size: 2em }
+h2 { font-size: 1.5em; text-transform: capitalize }
+h3 { font-size: 1.8em }
+h4{  font-size: 1.8em;}
+h5 { font-size: 1em; letter-spacing: 3px }
+h6 { font: .9em 'Montserrat', sans-serif }
+a { font-size: 1.2em;}
+p { font: 1em "Proxima Nova"; padding: 15px 0;}
+i { font-size: 2em;color: #d5d7d7}
+#title {
+    width: 100%;
+    bottom: 17vh;
+}
+#zolaq {
+    height: 50px;
+    background: #fd634d4d;
+    width: 100%;
+    bottom: 0;
+}
+.articles { padding: 60px 0}
+.col25 { padding: 30px 20px}
+.content {
+   width:90%;
+   margin: auto;
+}
+.shodow{ box-shadow: -5px 20px 35px #00000059, 0 20px 20px #0000004d;}
+.vh50{height:50vh;}
+#fitnessfirst{background:url(../img/fitnessfirst.jpg) center/cover}
+#yourbody{background:url(../img/yourbody.jpg) center/cover}
+#lifestyle{background:url(../img/lifestyle.jpg) center/cover}
+#summerofun{background:url(../img/summerofun.jpg) center/cover}
+#grape{background:url(../img/grape.jpg) center/cover}
+#avocado{background:url(../img/avocado.jpg) center/cover}
+#image{background:url(../img/footerbg.jpg) center/cover;filter: grayscale(70%)}
+.img{position:relative;}
+.drop{
+    position:absolute;
+    right:3%;
+    bottom:3%
+}
+.left{
+    position:absolute;
+    left:3%;
+    bottom:3%
+}
+.left img{width:12%;padding:5px 0 0 5px;}
+.drop img{width:12%;padding:5px 0 0 5px;}
+.text{padding:10px 10px 0 10px }
+.text  p{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    display:inline-block;
+}
+.text p:last-of-type{
+    float:right;
+}
+.text i{
+    font-size: 1.5em;
+    transform: rotate(20deg);
+}
+.icon-strawberry{transform: rotate(-45deg);}
+.icon-avocado {transform: rotate(-45deg);}
+#image{height:70vh;}
+#image h4{padding: 100px 0 0 0;font-size:2.9}
+#image p{ word-wrap:break-word;}
+footer{background-color: #0d1119;}
+.icons i{
+    padding: 15px;
+    font-size:1.2em;
+    border-radius: 50%; 
+    margin: 10px 5px;
+}
+.fa-facebook-f{background-color:#2e3192}
+.fa-twitter{background-color:#00aeef}
+.fa-youtube{background-color:#ed3123}
+.fa-linkedin-in{background-color:#171a8f}
+input{
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 2px;
+    background-color: #ffffff;
+    margin: 10px 0;
+    outline: none;
+}
+.btn{
+    height: 53px;
+    border-radius: 3px;
+}
+.btn i{
+    font-size: 1em;
+    color:#fff;
+}
+form{padding: 15px 0;}
+@media only screen and (min-width: 768px) {
+    .container {
+        max-width: 1180px;
+        margin: auto;
+    }
+    header { text-align: inherit; }
+    #menu { float: right }
+    #menu li {
+        display: inline-block;
+        padding: 0 2.5vw
+    }
+    h1 { font-size: 2.5em }
+    h3 { font-size: 2.2em }
+    h4{  font-size: 2.5em;}
+    h5 { text-align: right; padding: 0 20px 0 0}
+    #title {
+        width: inherit;
+        left: 7.5%;
+    }
+    #title h5 {
+        text-align: right;
+        padding: 0 20px 0 0;
+    }
+    .row::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .col25 { width: 25%;}
+    .col33 { width: 33.33%;}
+    .col66 { width: 66.66%;}
+    .fleft{float: left}
+    .fright{float: right}
+    .padding{padding:50px  50px 0 50px}
+    #image{height:90vh;}
+    #image h4{font-size:2.9}
+    #image{background:url(../img/footerbg.jpg);filter: grayscale(50%)}
+    footer {height:90vh}
+    .form{width: 250px;}
+    input{width: 200px;}
+    .content {
+        width:30%;
+        margin: auto;
+     }
+}
