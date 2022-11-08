@@ -21,14 +21,17 @@ header {
 .artpadding{padding:55px 40px}
 .acenter{text-align: center}
 .txtgrey{color: #8296a6}
-#logo { margin: 0 50px}
+#logo { margin: 0 50px;}
 .borderbottom { border-bottom: 1px dashed #a1c927;}
 .ftpadding{padding: 30px 20px}
 .footer{padding:0 10px}
+/* #menu{height: 0;} */
 #menu li a {
     font: .8em Poppins, sans-serif;
     text-transform: uppercase;
 }
+#hamburger {background: transparent;border: none;}
+#hamburger i{float: left;font-weight: normal;}
 h1, h2, h3, h4, h5, h6 {
     font-weight: 200;
     font-family: 'Open Sans', sans-serif;
@@ -128,6 +131,7 @@ input{
     font-size: 1em;
     color:#fff;
 }
+
 form{padding: 15px 0;}
 @media only screen and (min-width: 768px) {
     .container {
@@ -140,6 +144,7 @@ form{padding: 15px 0;}
         display: inline-block;
         padding: 0 2.5vw
     }
+    #hamburger{display: none;}
     h1 { font-size: 2.5em }
     h3 { font-size: 2.2em }
     h4{  font-size: 2.5em;}
